@@ -1,1 +1,48 @@
 // TODO
+.banner {
+    width: 100%;
+}
+
+.container {
+    max-width: 720px;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    h1 {
+        font-weight: 700;
+        display: flex;
+        font-size: 3rem;
+        margin-top: 1rem;
+        line-height: 3rem;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 0.875rem;
+        line-height: 1rem;
+        display: flex;
+        color: var(--text-grey);
+        margin-top: 1.5rem;
+
+        time, p {
+            margin: 0 0.5rem;
+            margin-right: 1.5rem;
+        }
+    }
+
+    article {
+        display: block;
+        margin-top: 4rem;
+
+        h1{
+            margin: 2rem 0;
+        }
+
+        p, ul, li {
+            margin: 2rem 0;
+        }
+    }
+
+}

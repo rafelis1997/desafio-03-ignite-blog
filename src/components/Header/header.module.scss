@@ -1,1 +1,21 @@
 // TODO
+.headerContainer {
+    height: 7rem;
+    width: 100%;
+}
+
+.headerContent {
+    max-width: 720px;
+    margin: 0 auto;
+    // padding-left: 
+    height: 7rem;
+    line-height: 7rem;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+
+    img {
+        align-self: left;
+    }
+}
